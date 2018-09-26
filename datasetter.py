@@ -70,7 +70,7 @@ def initialize():
         print("Done")
 
     print("Interpretating ...")
-    data = np.genfromtxt(filename + ".csv", delimiter=',', dtype='int16')
+    data = np.genfromtxt(filename + ".csv", delimiter=',', dtype='uint16')
     print("Done")        
         
     return data
