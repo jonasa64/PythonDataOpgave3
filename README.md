@@ -9,7 +9,7 @@ from datasetter import dataset as dataset
 from datasetter import dataset_keys as keys
 ```
 
-Hvis jeg får tid, vil jeg kigge på at få lavet convert_to_json til en class, der også kan holde icd, cause og state arrays
+Hvis jeg får tid, vil jeg kigge på at få lavet json_to_csv til en class, der også kan holde icd, cause og state arrays
 
 # Rune
 1. Which state has the most deaths in the year of 2016? (All causes)
