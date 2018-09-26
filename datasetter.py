@@ -54,6 +54,7 @@ def download(url,to=None):
     
     return True
 
+dataset_keys = ["year","icd","cause","state","deaths","deaths_age_adj"]
 fileurl = "https://data.cdc.gov/api/views/bi63-dtpu/rows.json?accessType=DOWNLOAD"
 filename = "NCHS_Leading_Causes_of_Death:_US"
 
