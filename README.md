@@ -3,8 +3,11 @@
 Når vi bruger "import datasetter", kan vi tilgå variablen dataset_keys: *datasetter.dataset_keys*  
 Den er nemt at indexere dataene efter.
 
-For at være sikker på at have korrekte data, er det en god idé at bruge: *dataset = datasetter.initialize()*
-Så kan vi alle bruge variablen "dataset" til at arbejde ud fra.
+Et godt udgangspunkt kunne være:  
+```python
+from datasetter import dataset as dataset
+from datasetter import dataset_keys as keys
+```
 
 # Rune
 1. Which state has the most deaths in the year of 2016? (All causes)
