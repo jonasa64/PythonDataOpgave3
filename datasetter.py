@@ -37,9 +37,8 @@ def json_to_csv(json_file,csv_file):
             row[9] = icd[row[9]]
             row[10] = cause[row[10]]
             row[11] = state[row[11]]
-            row.pop(7)
 
-            csv += ','.join(str(item) for item in row[3:])
+            csv += ','.join(str(item) for item in row[8:])
             csv += "\n"
         
         with open(csv_file, "w") as fw:
