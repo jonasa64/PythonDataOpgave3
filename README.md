@@ -5,11 +5,14 @@ Den er nemt at indexere dataene efter.
 
 Et godt udgangspunkt kunne være:  
 ```python
-from datasetter import dataset as dataset
+from datasetter import data as data
 from datasetter import dataset_keys as keys
+
+dataset = data.dataset
 ```
 
-Hvis jeg får tid, vil jeg kigge på at få lavet json_to_csv til en class, der også kan holde icd, cause og state arrays
+*data* er en initialiseret klasse, hvorfra vi kan hente listerne *icd*,*cause* og *state*
+*state* har *"United States"* som index 0, da *"United States"* optræder som en stat i datasettet, og naturligvis ikke skal medregnes når man undersøger noget fra de forskellige stater. 
 
 # Rune
 1. Which state has the most deaths in the year of 2016? (All causes)
