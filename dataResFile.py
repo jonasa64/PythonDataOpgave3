@@ -1,3 +1,6 @@
+from datasetter import data as data
+
+
 start_year = 1999
 end_year = 2016
 state = 'Alaska'
