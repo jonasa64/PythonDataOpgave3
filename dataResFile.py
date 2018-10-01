@@ -1,5 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
 from datasetter import data as data
 
+dataset = data.dataset
 
 start_year = 1999
 end_year = 2016
