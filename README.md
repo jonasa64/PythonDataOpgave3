@@ -27,5 +27,5 @@ dataset = data.dataset
 
 5. Which state has had the biggest increase in the death of Alzheimers from 1999-2016? Plot the increase year for year using matplotlib
 
-skal import matplotlib og from datasetter import data as data
+skal import matplotlib og from datasetter import data as data og import numpy as np
 
