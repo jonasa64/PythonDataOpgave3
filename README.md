@@ -17,6 +17,20 @@ Download this repository and launch main.py from your Python CLI
 
 # Results:
 The program extracts data from the created csv-file
-  * Alaska
+  * California has the most deaths in 2016
+  * Alaska has the fewest
+  * Pennsylvania has the smallest increase in deaths from 1999 to 2016, but the most kidney disease related deaths in 2005
     
 # Output:
+```
+Downloading file ...  
+Done  
+Converting JSON-file to CSV ...  
+Done  
+Interpretating ...  
+Done  
+State with most deaths(2016): California  
+State with least deaths(2016): Alaska  
+State with the smallest increase in deaths(1999-2016): Pennsylvania  
+State with most kidney disease related deaths(2005): Pennsylvania   
+```
